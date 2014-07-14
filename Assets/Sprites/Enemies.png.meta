@@ -1,0 +1,186 @@
+fileFormatVersion: 2
+guid: 9c3799c1371bd4c8381793140240577a
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 2
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 50
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Enemies_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 941
+        width: 411
+        height: 384
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_1
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1391
+        width: 364
+        height: 386
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_2
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 1391
+        width: 364
+        height: 386
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1393
+        width: 370
+        height: 383
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_4
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 941
+        width: 390
+        height: 385
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_5
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 943
+        width: 376
+        height: 382
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_6
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 272
+        height: 850
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_7
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 0
+        width: 272
+        height: 850
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_8
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 0
+        width: 272
+        height: 848
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_9
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 0
+        width: 272
+        height: 844
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_10
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 15
+        width: 13
+        height: 1701
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_11
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 14
+        width: 13
+        height: 1702
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_12
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1666
+        width: 151
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_13
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1611
+        width: 151
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
