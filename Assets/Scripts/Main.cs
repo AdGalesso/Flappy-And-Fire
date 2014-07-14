@@ -65,7 +65,7 @@ public class Main : MonoBehaviour {
 				}
 			} 
 			else {
-				GUI.Label (new Rect (10, 10, 300, 100), string.Format (@"Your Points: {0} \o/", Score.ToString ()));
+				GUI.Label (new Rect (10, 10, 300, 100), string.Format (@"Your Points: {0}", Score.ToString ()));
 
 				GUI.BeginGroup(new Rect(pos.x, pos.y, size.x, size.y));
 				{

@@ -42,7 +42,7 @@ public class CreateEnemy : MonoBehaviour {
 			instanceCount++;
 
 			//Wins a Fire life
-			Main.FireLife += 0.18f;
+			Main.FireLife += 0.10f;
 		}
 	}
 

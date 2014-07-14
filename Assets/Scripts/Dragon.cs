@@ -4,10 +4,11 @@ using System.Collections;
 public class Dragon : MonoBehaviour {
 
 	public Vector2 jump;
+	public GameObject fire;
 
 	private float lastTap;
 	private float timeTap;
-	
+
 	void Start () {
 		timeTap = .2f;
 	}
@@ -22,13 +23,17 @@ public class Dragon : MonoBehaviour {
 
 			SingleTap();
 
+			GetComponent<Animator> ().SetFloat ("Smoking", Main.FireLife);
+
 			if ((Time.time - lastTap) < timeTap) {
-				Debug.Log("DoubleTap" + Time.time);
+				if (Main.FireLife >= 1) {
+					DoubleTap();
+				}
+				Debug.Log("DoubleTap" + Time.time);	
 			}
 
 			lastTap = Time.time;
 		}
-
 	}
 	
 	void OnCollisionEnter2D(Collision2D coll) {
@@ -52,7 +57,22 @@ public class Dragon : MonoBehaviour {
 		audio.Play();
 
 		//Wins a Fire life
-		Main.FireLife += 0.21f;
+		Main.FireLife += .02f;
+	}
+
+	void DoubleTap ()
+	{
+		Main.FireLife = 0;
+
+		GetComponent<Animator> ().SetFloat ("Smoking", Main.FireLife);
+		GetComponent<Animator> ().SetTrigger ("Fire");
+
+		GameObject fireInstance = Instantiate (fire) as GameObject;
+
+		fireInstance.transform.position = 
+			new Vector3 (-4.7f, this.transform.position.y, 11f);
+
+		fireInstance.rigidbody2D.AddForce (new Vector2 (100,100));
 	}
 	
 	void Die (string killer)
@@ -80,6 +100,6 @@ public class Dragon : MonoBehaviour {
 		Main.DieMenu = true;
 
 		//Kill ´D´
-		Destroy (this.gameObject, 3);
+		Destroy (this.gameObject, 4);
 	}
 }
