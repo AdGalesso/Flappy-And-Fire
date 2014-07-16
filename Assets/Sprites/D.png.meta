@@ -49,18 +49,18 @@ TextureImporter:
         y: 1507
         width: 389
         height: 285
-      alignment: 2
-      pivot: {x: .5, y: 1}
+      alignment: 4
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: D_2
       rect:
         serializedVersion: 2
-        x: 747
+        x: 745
         y: 1507
-        width: 386
+        width: 389
         height: 285
-      alignment: 2
-      pivot: {x: .5, y: 1}
+      alignment: 4
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: D_3
       rect:
@@ -69,8 +69,8 @@ TextureImporter:
         y: 1507
         width: 389
         height: 285
-      alignment: 2
-      pivot: {x: .5, y: 1}
+      alignment: 4
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: D_4
       rect:
@@ -79,8 +79,8 @@ TextureImporter:
         y: 1143
         width: 389
         height: 287
-      alignment: 2
-      pivot: {x: .5, y: 1}
+      alignment: 4
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: D_5
       rect:
@@ -89,8 +89,8 @@ TextureImporter:
         y: 1143
         width: 389
         height: 287
-      alignment: 2
-      pivot: {x: .5, y: 1}
+      alignment: 4
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: D_6
       rect:
@@ -99,8 +99,8 @@ TextureImporter:
         y: 1143
         width: 389
         height: 287
-      alignment: 2
-      pivot: {x: .5, y: 1}
+      alignment: 4
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: D_7
       rect:
@@ -109,8 +109,8 @@ TextureImporter:
         y: 1143
         width: 391
         height: 287
-      alignment: 2
-      pivot: {x: .5, y: 1}
+      alignment: 4
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: D_8
       rect:
@@ -119,8 +119,8 @@ TextureImporter:
         y: 1143
         width: 392
         height: 287
-      alignment: 2
-      pivot: {x: .5, y: 1}
+      alignment: 4
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: D_9
       rect:
@@ -129,8 +129,8 @@ TextureImporter:
         y: 1143
         width: 392
         height: 287
-      alignment: 2
-      pivot: {x: .5, y: 1}
+      alignment: 4
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: D_10
       rect:
@@ -139,8 +139,8 @@ TextureImporter:
         y: 743
         width: 404
         height: 289
-      alignment: 2
-      pivot: {x: .5, y: 1}
+      alignment: 4
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: D_11
       rect:
@@ -149,8 +149,8 @@ TextureImporter:
         y: 743
         width: 404
         height: 289
-      alignment: 2
-      pivot: {x: .5, y: 1}
+      alignment: 4
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: D_13
       rect:
@@ -159,8 +159,8 @@ TextureImporter:
         y: 743
         width: 407
         height: 290
-      alignment: 2
-      pivot: {x: .5, y: 1}
+      alignment: 4
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: D_14
       rect:
@@ -169,8 +169,8 @@ TextureImporter:
         y: 747
         width: 404
         height: 285
-      alignment: 2
-      pivot: {x: .5, y: 1}
+      alignment: 4
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: D_15
       rect:
@@ -179,8 +179,8 @@ TextureImporter:
         y: 747
         width: 407
         height: 286
-      alignment: 2
-      pivot: {x: .5, y: 1}
+      alignment: 4
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: D_16
       rect:
@@ -189,8 +189,8 @@ TextureImporter:
         y: 747
         width: 400
         height: 285
-      alignment: 2
-      pivot: {x: .5, y: 1}
+      alignment: 4
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: D_17
       rect:
@@ -199,8 +199,8 @@ TextureImporter:
         y: 365
         width: 389
         height: 287
-      alignment: 2
-      pivot: {x: .5, y: 1}
+      alignment: 4
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: D_18
       rect:
@@ -209,8 +209,8 @@ TextureImporter:
         y: 365
         width: 411
         height: 287
-      alignment: 2
-      pivot: {x: .5, y: 1}
+      alignment: 4
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: D_19
       rect:
@@ -219,8 +219,8 @@ TextureImporter:
         y: 365
         width: 407
         height: 287
-      alignment: 2
-      pivot: {x: .5, y: 1}
+      alignment: 4
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: D_20
       rect:
@@ -229,8 +229,8 @@ TextureImporter:
         y: 365
         width: 392
         height: 302
-      alignment: 2
-      pivot: {x: .5, y: 1}
+      alignment: 4
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: D_21
       rect:
@@ -239,8 +239,8 @@ TextureImporter:
         y: 365
         width: 392
         height: 302
-      alignment: 2
-      pivot: {x: .5, y: 1}
+      alignment: 4
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: D_22
       rect:
@@ -249,8 +249,8 @@ TextureImporter:
         y: 365
         width: 392
         height: 302
-      alignment: 2
-      pivot: {x: .5, y: 1}
+      alignment: 4
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: D_23
       rect:
@@ -259,8 +259,8 @@ TextureImporter:
         y: 365
         width: 387
         height: 302
-      alignment: 2
-      pivot: {x: .5, y: 1}
+      alignment: 4
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: D_24
       rect:
@@ -269,8 +269,8 @@ TextureImporter:
         y: 0
         width: 389
         height: 285
-      alignment: 2
-      pivot: {x: .5, y: 1}
+      alignment: 4
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: D_25
       rect:
@@ -279,8 +279,8 @@ TextureImporter:
         y: 0
         width: 407
         height: 285
-      alignment: 2
-      pivot: {x: .5, y: 1}
+      alignment: 4
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: D_26
       rect:
@@ -289,6 +289,26 @@ TextureImporter:
         y: 107
         width: 105
         height: 95
+      alignment: 4
+      pivot: {x: 0, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: D_25
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 1507
+        width: 407
+        height: 285
+      alignment: 4
+      pivot: {x: 0, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: D_26
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1641
+        width: 8
+        height: 7
       alignment: 2
       pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}

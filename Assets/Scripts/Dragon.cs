@@ -70,9 +70,9 @@ public class Dragon : MonoBehaviour {
 		GameObject fireInstance = Instantiate (fire) as GameObject;
 
 		fireInstance.transform.position = 
-			new Vector3 (-4.7f, this.transform.position.y, 11f);
+			new Vector3 (-4.5f, this.transform.position.y, 11f);
 
-		fireInstance.rigidbody2D.AddForce (new Vector2 (100,100));
+		fireInstance.rigidbody2D.AddForce (new Vector2 (300, 1));
 	}
 	
 	void Die (string killer)
@@ -91,6 +91,7 @@ public class Dragon : MonoBehaviour {
 
 		//Score
 		if (Main.Score > Main.HigherScore) {
+			Main.HigherScore = Main.Score;
 			PlayerPrefs.SetInt("HigherScore", Main.Score);
 		}
 

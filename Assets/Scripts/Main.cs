@@ -7,18 +7,20 @@ public class Main : MonoBehaviour {
 	public static int HigherScore;
 	public static int PreviousScore;
 	public static bool DieMenu;
-	public static float FireLife = 0;
+	public static float FireLife;
 
-	public Vector2 pos = new Vector2(30,40);
-	public Vector2 size = new Vector2(2000,2000);
+	public Vector2 pos;
+	public Vector2 size;
 	
 	public GUISkin GlobalGUI;
 	public bool Menu;
 	public Texture progressBarEmpty;
 	public Texture progressBarFull;
+	public Texture forkme;
 
 	void Start () {
 		Score = 0;
+		FireLife = 0;
 		HigherScore = PlayerPrefs.GetInt ("HigherScore");
 		PreviousScore = PlayerPrefs.GetInt ("PreviousScore");
 	}
@@ -29,15 +31,26 @@ public class Main : MonoBehaviour {
 		if (DieMenu) {
 			GUI.BeginGroup (new Rect (80, 70, Screen.width - 200, Screen.height - 80));
 			{
-				GUI.Box (new Rect (0, 0, Screen.width - 200, Screen.height - 80), Score.ToString ());
+				GUIStyle style = new GUIStyle();
 
-				if (GUI.Button (new Rect (10, 50, Screen.width - 220, 40), "Try Again")) {
+				style.alignment = TextAnchor.UpperCenter;
+				style.fontSize = 40;
+				style.normal.textColor = Color.Lerp(Color.yellow, Color.red, 0.5f);
+
+				GUI.Box (new Rect (0, 0, Screen.width - 200, Screen.height - 80), string.Format (@"Your Points: {0}", Score.ToString ()), style);
+
+				style.normal.textColor = Color.Lerp(Color.green, Color.black, 0.5f);
+
+				GUI.Box (new Rect (0, 60, Screen.width - 200, Screen.height - 80), string.Format (@"Your Best: {0}", HigherScore.ToString ()), style);
+
+				if (GUI.Button (new Rect (10, 160, Screen.width - 220, 40), "Try Again")) {
+					FireLife = 0;
 					DieMenu = Menu = false;
 					CreateEnemy.newEnemie = true;
 					Application.LoadLevel ("Game");
 				}
 
-				if (GUI.Button (new Rect (10, 100, Screen.width - 220, 40), "Back to Menu")) {
+				if (GUI.Button (new Rect (10, 200, Screen.width - 220, 40), "Back to Menu")) {
 					DieMenu = false;
 					Menu = true;
 					CreateEnemy.newEnemie = true;
@@ -48,8 +61,8 @@ public class Main : MonoBehaviour {
 		} 
 		else {
 			if (Menu) {
-				if (GUI.Button (new Rect (Screen.width - 150, 0, 150, 150), string.Empty)) {
-					Application.OpenURL ("https://github.com/AdGalesso/Teste");
+				if (GUI.Button (new Rect (Screen.width - 300, -1, 64, 128), forkme)) {
+					Application.OpenURL ("https://github.com/AdGalesso/Flappy-And-Fire");
 				}
 
 				if (GUI.Button (new Rect (Screen.width / 2 - 100, Screen.height / 2 + 10, 200, 50), string.Empty)) {
@@ -67,7 +80,7 @@ public class Main : MonoBehaviour {
 			else {
 				GUI.Label (new Rect (10, 10, 300, 100), string.Format (@"Your Points: {0}", Score.ToString ()));
 
-				GUI.BeginGroup(new Rect(pos.x, pos.y, size.x, size.y));
+				GUI.BeginGroup(new Rect(pos.x, Screen.height-55, size.x, size.y));
 				{
 					GUI.Box(new Rect(0,0, size.x, size.y), progressBarEmpty);
 
