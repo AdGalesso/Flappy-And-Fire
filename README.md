@@ -3,7 +3,7 @@ Flappy-And-Fire
 
 My first full game using Unity 3D. 
 
-'D' the Dragon needs to face the power of mother nature and go as far as he can. 
+'D' the Dragon needs to face the power of the mother nature and go as far as it can. 
 
 Powered By 2[] Studios:
 
