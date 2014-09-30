@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using System.Collections.Generic;
 
 public class Main : MonoBehaviour {
@@ -31,6 +32,8 @@ public class Main : MonoBehaviour {
 		FireLife = 0;
 		HigherScore = PlayerPrefs.GetInt ("HigherScore");
 		PreviousScore = PlayerPrefs.GetInt ("PreviousScore");
+
+		FB.Init(OnInitComplete, OnHideUnity);
 	}
 
 	void FixedUpdate()
@@ -114,6 +117,17 @@ public class Main : MonoBehaviour {
 		}
 
 		if (opt) {
+
+			//GUI.Button (new Rect (Screen.width / 2 + 250, Screen.height - 500, 100, 50), FB.IsLoggedIn.ToString(), style);
+			
+			//if (!FB.IsLoggedIn)
+			//{
+				//if (GUI.Button (new Rect (Screen.width / 2 + 250, Screen.height - 300, 100, 50), "Facebook", style)) {
+					
+					//FB.Login("email,publish_actions", LoginCallback);
+				//}
+			//}
+
 			if (GUI.Button (new Rect (Screen.width / 2 + 250, Screen.height - 100, 100, 50), "Back to Menu", style)) {
 				
 				transitionStartTime = Time.time;
@@ -176,5 +190,47 @@ public class Main : MonoBehaviour {
 			}
 		}
 		GUI.EndGroup ();
+	}
+
+	void OnInitComplete ()
+	{
+		Debug.Log("Init");
+	}
+
+	void OnHideUnity(bool isGameShown)
+	{
+		Debug.Log("Is game showing? " + isGameShown);
+	}
+
+	void LoginCallback (FBResult result)
+	{
+		// Reqest player info and profile picture
+		FB.API("/me?fields=id,email,first_name,friends.limit(100).fields(first_name,id)", Facebook.HttpMethod.GET, APICallback);
+
+		//LoadPicture(Util.GetPictureURL("me", 128, 128),MyPictureCallback);
+	}
+
+	void APICallback (FBResult result)
+	{
+		Debug.Log (result.Text);
+
+		FB.API("/me/permissions", Facebook.HttpMethod.GET, delegate (FBResult response) {
+			Debug.Log(response.Text);
+			// inspect the response and adapt your UI as appropriate
+			// check response.Text and response.Error
+		});
+
+		if (result.Error != null) {
+
+
+			Dictionary<string,string> profile = Util.DeserializeJSONProfile(result.Text);
+			//GameStateManager.Username = profile["first_name"];
+			//friends = Util.DeserializeJSONFriends(result.Text);
+			//checkIfUserDataReady();
+
+			Debug.Log(profile);
+		}
+
+		//Debug.Log("a");
 	}
 }

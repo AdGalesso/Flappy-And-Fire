@@ -46,6 +46,19 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Facebook\Scripts\AndroidFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\AndroidFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\CanvasFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\EditorFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\EditorFacebookAccessToken.cs" />
+     <Compile Include="Assets\Facebook\Scripts\EditorFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FB.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FBScreen.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FBSettings.cs" />
+     <Compile Include="Assets\Facebook\Scripts\IOSFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\IOSFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\NativeDialogModes.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Util.cs" />
      <Compile Include="Assets\Scripts\BackgroundParallax.cs" />
      <Compile Include="Assets\Scripts\CreateEnemy.cs" />
      <Compile Include="Assets\Scripts\Dragon.cs" />
@@ -55,6 +68,52 @@
      <Compile Include="Assets\Scripts\Score.cs" />
      <Compile Include="Assets\Scripts\SingleEnemy.cs" />
      <Compile Include="Assets\Scripts\ToArray.cs" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\values\attrs.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\layout\com_facebook_picker_activity_circle_row.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\values-iw\strings.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\drawable\com_facebook_picker_top_button.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\layout\com_facebook_picker_search_box.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\values-ldpi\dimens.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\values\colors.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\layout\com_facebook_friendpickerfragment.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\bin\proguard.txt" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\drawable\com_facebook_top_button.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\layout\com_facebook_usersettingsfragment.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\layout\com_facebook_picker_checkbox.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\bin\R.txt" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\layout\com_facebook_picker_title_bar_stub.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\values\strings.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\drawable\com_facebook_picker_item_background.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\layout\com_facebook_picker_image.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\drawable\com_facebook_top_background.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\values-hdpi\dimens.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\build.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\drawable\com_facebook_button_blue.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\drawable\com_facebook_picker_list_selector.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\layout\com_facebook_search_bar_layout.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\bin\AndroidManifest.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\layout\com_facebook_login_activity_layout.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\values-mdpi\dimens.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\layout\com_facebook_picker_list_section_header.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\layout\com_facebook_picker_title_bar.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\drawable\com_facebook_usersettingsfragment_background_gradient.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\layout\com_facebook_placepickerfragment.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\layout\com_facebook_placepickerfragment_list_row.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\values\drawables.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\proguard-project.txt" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\drawable\com_facebook_loginbutton_silver.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\drawable\com_facebook_picker_list_selector_background_transition.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\values-he\strings.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\AndroidManifest.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\values-es\strings.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\drawable\com_facebook_button_check.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\layout\com_facebook_picker_list_row.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\values\styles.xml" />
+     <None Include="Assets\Facebook\Plugins\Android\facebook\res\values-xhdpi\dimens.xml" />
+ <Reference Include="IFacebook">
+ <HintPath>/Users/dri/Documents/Apps/Flappy And Fire/Assets/Facebook/Scripts/IFacebook.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
