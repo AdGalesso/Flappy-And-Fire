@@ -19,7 +19,7 @@ public class Dragon : MonoBehaviour {
 		transform.rotation = Quaternion.Euler(0f, 0f, 350f);
 		transform.position = new Vector3 (-5.5f, transform.position.y, transform.position.z);
 
-		if (Input.GetKeyDown(KeyCode.Space)) {
+		if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)) {
 
 			SingleTap();
 
