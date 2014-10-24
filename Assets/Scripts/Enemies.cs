@@ -12,14 +12,12 @@ public class Enemies : MonoBehaviour {
 		rigidbody2D.velocity = speed;
 
 		//Y random postion
-		transform.position = new Vector3 (transform.position.x, Random.Range(randYPosition[0], randYPosition[1]), transform.position.z);
+		transform.position = new Vector3 (transform.position.x, Random.Range(randYPosition[0], randYPosition[1]), 1);
 	}
 
 	void OnBecameInvisible() {
 		Die();
 	}
-
-	void Update () {}
 
 	void Die ()
 	{

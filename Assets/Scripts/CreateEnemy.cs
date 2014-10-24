@@ -33,7 +33,7 @@ public class CreateEnemy : MonoBehaviour {
 	void GetEnemy () {
 		if (newEnemie) {
 			//The enemie start position
-			enemy.transform.position = new Vector3 (14f, 0f, 11f);
+			enemy.transform.position = new Vector3 (14f, 0f, 1);
 			
 			//Create the instance
 			Instantiate (enemy);
@@ -59,7 +59,7 @@ public class CreateEnemy : MonoBehaviour {
 		Vector3 enemyPosition = enemy.transform.position;
 
   		flag.transform.position = new Vector3 (
-			enemyPosition.x + 1.5f, enemyPosition.y, enemyPosition.z);
+			enemyPosition.x + 1.5f, enemyPosition.y, 1);
 
 		Instantiate (flag);
 

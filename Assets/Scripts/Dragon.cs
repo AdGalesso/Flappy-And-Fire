@@ -29,7 +29,6 @@ public class Dragon : MonoBehaviour {
 				if (Main.FireLife >= 1) {
 					DoubleTap();
 				}
-				Debug.Log("DoubleTap" + Time.time);	
 			}
 
 			lastTap = Time.time;
@@ -70,7 +69,7 @@ public class Dragon : MonoBehaviour {
 		GameObject fireInstance = Instantiate (fire) as GameObject;
 
 		fireInstance.transform.position = 
-			new Vector3 (-4.5f, this.transform.position.y, 11f);
+			new Vector3 (-4.5f, this.transform.position.y, 1);
 
 		fireInstance.rigidbody2D.AddForce (new Vector2 (300, 1));
 	}

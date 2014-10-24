@@ -1,12 +1,16 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Play.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Main.cs" Line="46" Column="3" />
+      <File FileName="Assets/Play.cs" Line="10" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State expanded="True" selected="True">
+        <State expanded="True">
           <Node name="Assembly-CSharp" expanded="True">
-            <Node name="Facebook" expanded="True" />
             <Node name="Scripts" expanded="True" />
+            <Node name="Play.cs" selected="True" />
           </Node>
         </State>
       </Pad>
@@ -14,7 +18,8 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/dri/Documents/Apps/Flappy And Fire/Assets/Scripts/Main.cs" line="226" />
+      <Breakpoint file="/Users/dri/Documents/Apps/Flappy And Fire/Assets/Scripts/Main.cs" line="237" />
+      <Breakpoint file="/Users/dri/Documents/Apps/Flappy And Fire/Assets/Play.cs" line="7" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

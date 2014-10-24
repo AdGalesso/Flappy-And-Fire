@@ -4,10 +4,6 @@ using System.Collections;
 public class BackgroundParallax : MonoBehaviour {
 
 	public float speed = 0;
-	
-	void Start () {
-	
-	}
 
 	void Update () {
 
