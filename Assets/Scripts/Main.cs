@@ -132,7 +132,7 @@ public class Main : MonoBehaviour {
 
 	void GetFireBar ()
 	{
-		GUI.Label (new Rect (10, 10, 300, 100), string.Format (@"Your Points: {0}", Score.ToString ()));
+		GUI.Label (new Rect (10, 10, 1000, 100), string.Format (@"Your Points: {0}", Score.ToString ()));
 		
 		GUI.BeginGroup(new Rect(pos.x, Screen.height-55, size.x, size.y));
 		{
@@ -155,25 +155,23 @@ public class Main : MonoBehaviour {
 			GUIStyle style = new GUIStyle();
 			
 			style.alignment = TextAnchor.UpperCenter;
-			style.fontSize = 40;
+			style.fontSize = Main.ButtonSize;
 			style.normal.textColor = Color.Lerp(Color.yellow, Color.red, 0.5f);
 			
 			GUI.Box (new Rect (0, 0, Screen.width - 200, Screen.height - 80), string.Format (@"Your Points: {0}", Score.ToString ()), style);
 			
 			style.normal.textColor = Color.Lerp(Color.green, Color.black, 0.5f);
 			
-			GUI.Box (new Rect (0, 60, Screen.width - 200, Screen.height - 80), string.Format (@"Your Best: {0}", HigherScore.ToString ()), style);
+			GUI.Box (new Rect (0, 100, Screen.width - 200, Screen.height - 80), string.Format (@"Your Best: {0}", HigherScore.ToString ()), style);
 
-			style.normal.textColor = Color.white;
-
-			if (GUI.Button (new Rect (0, 120, Screen.width - 200, 50), "Try Again", style)) {
+			if (GUI.Button (new Rect (0, 200, Screen.width - 200, 80), "Try Again")) {
 				FireLife = 0;
 				DieMenu = Menu = false;
 				CreateEnemy.newEnemie = true;
 				Application.LoadLevel ("Game");
 			}
 			
-			if (GUI.Button (new Rect (0, 180, Screen.width - 200, 50), "Back to Menu", style)) {
+			if (GUI.Button (new Rect (0, 300, Screen.width - 200, 80), "Back to Menu")) {
 				DieMenu = false;
 				Menu = true;
 				CreateEnemy.newEnemie = true;

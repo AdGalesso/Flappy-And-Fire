@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>Flappy and Fire</string>
 	<key>CFBundleGetInfoString</key>
-	<string>Unity Player version 4.5.0f6 (fd4616464986). (c) 2013 Unity Technologies ApS. All rights reserved.</string>
+	<string>Unity Player version 4.5.5f1 (7684ad0c5a44). (c) 2014 Unity Technologies ApS. All rights reserved.</string>
 	<key>CFBundleIconFile</key>
 	<string>PlayerIcon.icns</string>
 	<key>CFBundleIdentifier</key>
@@ -19,16 +19,16 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>Unity Player version 4.5.0f6</string>
+	<string>Unity Player version 4.5.5f1</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>4.5.0f6</string>
+	<string>4.5.5f1</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>PlayerApplication</string>
 	<key>UnityBuildNumber</key>
-	<string>fd4616464986</string>
+	<string>7684ad0c5a44</string>
 </dict>
 </plist>

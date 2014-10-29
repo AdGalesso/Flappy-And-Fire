@@ -1,26 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Play.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../Downloads/play-games-plugin-for-unity-master/samples/TicTacToe/Assets/GameLogic/Util.cs">
     <Files>
-      <File FileName="Assets/Scripts/Main.cs" Line="46" Column="3" />
-      <File FileName="Assets/Play.cs" Line="10" Column="1" />
+      <File FileName="../../../Downloads/play-games-plugin-for-unity-master/samples/TicTacToe/Assets/GameLogic/Util.cs" Line="21" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="Assembly-CSharp" expanded="True">
-            <Node name="Scripts" expanded="True" />
-            <Node name="Play.cs" selected="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/dri/Documents/Apps/Flappy And Fire/Assets/Scripts/Main.cs" line="237" />
-      <Breakpoint file="/Users/dri/Documents/Apps/Flappy And Fire/Assets/Play.cs" line="7" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

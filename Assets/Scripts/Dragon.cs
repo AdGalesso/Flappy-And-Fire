@@ -8,9 +8,11 @@ public class Dragon : MonoBehaviour {
 
 	private float lastTap;
 	private float timeTap;
+	private bool alive;
 
 	void Start () {
 		timeTap = .2f;
+		alive = true;
 	}
 
 	void Update () {
@@ -19,7 +21,7 @@ public class Dragon : MonoBehaviour {
 		transform.rotation = Quaternion.Euler(0f, 0f, 350f);
 		transform.position = new Vector3 (-5.5f, transform.position.y, transform.position.z);
 
-		if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)) {
+		if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0) && alive) {
 
 			SingleTap();
 
@@ -76,6 +78,8 @@ public class Dragon : MonoBehaviour {
 	
 	void Die (string killer)
 	{
+		alive = false;
+
 		//Call Animation Kill
 		if (killer == "Tree") {
 			GetComponent<Animator> ().SetBool ("DeathAngel", true);
