@@ -1,6 +1,18 @@
 fileFormatVersion: 2
 guid: fcf7dbaa63d424228abf22cb1aff6420
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: Menu_1
+    21300002: Menu_7
+    21300004: Menu_8
+    21300006: Menu_2
+    21300008: Menu_9
+    21300010: Menu_3
+    21300012: Menu_10
+    21300014: Menu_4
+    21300016: Menu_5
+    21300018: Menu_11
+    21300020: Menu_6
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0

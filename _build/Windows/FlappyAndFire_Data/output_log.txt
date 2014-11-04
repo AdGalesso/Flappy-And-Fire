@@ -1,0 +1,52 @@
+Initialize engine version: 4.5.0f6 (fd4616464986)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: Parallels Display Adapter (WDDM) (ID=0x4005)
+    Vendor:   Parallels
+    VRAM:     512 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Projects\Repositories\toArray\FlappyAndFire\_build\Windows\FlappyAndFire_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Projects\Repositories\toArray\FlappyAndFire\_build\Windows\FlappyAndFire_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Projects\Repositories\toArray\FlappyAndFire\_build\Windows\FlappyAndFire_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Projects\Repositories\toArray\FlappyAndFire\_build\Windows\FlappyAndFire_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+- Completed reload, in  0.079 seconds
+desktop: 2220x1386 60Hz; virtual: 1480x924 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+UnloadTime: 0.294205 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 220.
+Total: 1.547432 ms (FindLiveObjects: 0.029932 ms CreateObjectMapping: 0.007876 ms MarkObjects: 0.182745 ms  DeleteObjects: 0.093342 ms)
+
+UnloadTime: 0.399362 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 291.
+Total: 1.562399 ms (FindLiveObjects: 0.015360 ms CreateObjectMapping: 0.010633 ms MarkObjects: 0.193379 ms  DeleteObjects: 0.780608 ms)
+
+DoubleTap23.49562
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+DoubleTap24.03957
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+DoubleTap24.41387
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+DoubleTap24.55135
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+DoubleTap25.14521
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+DoubleTap25.7761
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+

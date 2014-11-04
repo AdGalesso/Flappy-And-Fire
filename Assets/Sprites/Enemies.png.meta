@@ -1,6 +1,21 @@
 fileFormatVersion: 2
 guid: 9c3799c1371bd4c8381793140240577a
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: Enemies_3
+    21300002: Enemies_1
+    21300004: Enemies_2
+    21300006: Enemies_0
+    21300008: Enemies_4
+    21300010: Enemies_5
+    21300012: Enemies_6
+    21300014: Enemies_7
+    21300016: Enemies_8
+    21300018: Enemies_9
+    21300020: Enemies_10
+    21300022: Enemies_11
+    21300024: Enemies_12
+    21300026: Enemies_13
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
